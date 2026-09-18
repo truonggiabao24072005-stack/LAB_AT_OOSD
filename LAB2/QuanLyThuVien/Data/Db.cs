@@ -23,9 +23,7 @@ namespace QuanLyThuVien.Data
             return cn;
         }
 
-        public static DataTable Query(
-            string sql,
-            params SqlParameter[] parameters)
+        public static DataTable Query(string sql, params SqlParameter[] parameters)
         {
             using (SqlConnection cn = OpenConnection())
             using (SqlCommand cmd = new SqlCommand(sql, cn))
@@ -40,9 +38,7 @@ namespace QuanLyThuVien.Data
             }
         }
 
-        public static int Execute(
-            string sql,
-            params SqlParameter[] parameters)
+        public static int Execute(string sql, params SqlParameter[] parameters)
         {
             using (SqlConnection cn = OpenConnection())
             using (SqlCommand cmd = new SqlCommand(sql, cn))
@@ -54,9 +50,7 @@ namespace QuanLyThuVien.Data
             }
         }
 
-        public static object Scalar(
-            string sql,
-            params SqlParameter[] parameters)
+        public static object Scalar(string sql, params SqlParameter[] parameters)
         {
             using (SqlConnection cn = OpenConnection())
             using (SqlCommand cmd = new SqlCommand(sql, cn))

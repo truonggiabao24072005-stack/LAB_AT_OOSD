@@ -1,62 +1,59 @@
 ﻿# LAB3 - Hệ thống quản lý khách sạn
 
-> Hoàn thiện các mục trong dấu `[ ... ]` trước khi đẩy repository. Chỉ ghi kết quả và môi trường bạn đã tự kiểm tra trên máy cá nhân.
+
 
 ## Thông tin sinh viên
 
-- Họ và tên: `[Điền họ tên]`
-- MSSV: `[Điền MSSV]`
-- Lớp / nhóm: `[Điền lớp / nhóm]`
-- Học phần: `[Điền tên học phần]`
-- Tên bài: **LAB3 - Hệ thống quản lý khách sạn**
-- Repository: `[Dán URL repository LAB_OOSD]`
+* Họ và tên: Trương Gia Bảo
+* MSSV: 1250080020
+* Tên bài: **LAB3 - Hệ thống quản lý khách sạn**
 
 ## Môi trường thực hiện
 
 Điền phiên bản thực tế trong máy bạn:
 
-- Hệ điều hành: `[Windows ...]`
-- Visual Studio: `[2022, phiên bản nếu biết]`
-- Ngôn ngữ: C#
-- Framework: `[.NET Framework 4.7.2 nếu đúng với project]`
-- SQL Server: `[LocalDB / Express / phiên bản thực tế]`
-- Công cụ quản trị SQL: `[SSMS / SQL Server Object Explorer, phiên bản]`
+* Hệ điều hành:
+* Visual Studio: 2022
+* Ngôn ngữ: C#
+* Framework: NET Framework 4.7.2
+* SQL Server:
+* Công cụ quản trị SQL: SQL Server
 
 ## Nội dung đã thực hiện
 
 Đánh dấu và sửa các dòng cho đúng với sản phẩm thực tế:
 
-- [ ] Khảo sát nghiệp vụ và phân loại lưu trữ, tra cứu, tính toán, kết xuất/thống kê.
-- [ ] Xác định Actor, Use Case, đặc tả Use Case, lớp, ID, association và multiplicity.
-- [ ] Vẽ Use Case tổng quát và phân rã; biểu đồ lớp phân tích/chi tiết; trạng thái; tuần tự; hoạt động.
-- [ ] Thiết kế CSDL SQL Server có PK, FK và ràng buộc cho phòng, tiện nghi, đặt phòng, dịch vụ, đền bù, hóa đơn, thanh toán.
-- [ ] Xây dựng WinForms theo module và kiểm thử các quy tắc trong PDF.
+* \[ ] Khảo sát nghiệp vụ và phân loại lưu trữ, tra cứu, tính toán, kết xuất/thống kê.
+* \[ ] Xác định Actor, Use Case, đặc tả Use Case, lớp, ID, association và multiplicity.
+* \[ ] Vẽ Use Case tổng quát và phân rã; biểu đồ lớp phân tích/chi tiết; trạng thái; tuần tự; hoạt động.
+* \[ ] Thiết kế CSDL SQL Server có PK, FK và ràng buộc cho phòng, tiện nghi, đặt phòng, dịch vụ, đền bù, hóa đơn, thanh toán.
+* \[ ] Xây dựng WinForms theo module và kiểm thử các quy tắc trong PDF.
 
 ### Module / Form
 
-- `FrmMain`: `[Tình trạng thực tế]`
-- `FrmDanhMuc`: `[Tình trạng thực tế]`
-- `FrmPhongTienNghi`: `[Tình trạng thực tế]`
-- `FrmDatPhong`: `[Tình trạng thực tế]`
-- `FrmDichVu`: `[Tình trạng thực tế]`
-- `FrmTraPhong`: `[Tình trạng thực tế]`
-- `FrmThongKe`: `[Tình trạng thực tế]`
+* `FrmMain`: 
+* `FrmDanhMuc`: 
+* `FrmPhongTienNghi`: 
+* `FrmDatPhong`: 
+* `FrmDichVu`: 
+* `FrmTraPhong`: 
+* `FrmThongKe`: 
 
 ## Kết quả
 
-- Kết quả build: `[Đạt / Chưa đạt; ghi ngày và lỗi nếu có]`
-- Kết quả chạy: `[Đạt / Chưa đạt; ghi luồng đã chạy]`
-- Tổng test đã thực hiện: `[__/15]`
-- Test đạt: `[__]`; test chưa đạt: `[__]`
-- Kết luận ngắn: `[Chỉ nêu kết quả đã quan sát trên máy bạn]`
+* Kết quả build: 
+* Kết quả chạy: 
+* Tổng test đã thực hiện: 
+* Test đạt: 
+* Kết luận ngắn: 
 
-Bảng kết quả chi tiết nằm trong `Report/LAB3_Bao_cao_He_thong_quan_ly_khach_san.docx` hoặc `TestCases/`.
+
 
 ## Lỗi gặp phải và cách khắc phục
 
-| Lỗi thực tế | Nguyên nhân đã xác định | Cách khắc phục | Kết quả sau sửa |
-|---|---|---|---|
-| `[Điền lỗi, hoặc ghi “Không gặp lỗi” nếu đúng]` | `[Điền]` | `[Điền]` | `[Điền]` |
+|Lỗi thực tế|Nguyên nhân đã xác định|Cách khắc phục|Kết quả sau sửa|
+|-|-|-|-|
+|`\\\[Điền lỗi, hoặc ghi “Không gặp lỗi” nếu đúng]`|`\\\[Điền]`|`\\\[Điền]`|`\\\[Điền]`|
 
 ## Cấu trúc thư mục
 
@@ -67,7 +64,7 @@ Mở solution tại `Source/QuanLyKhachSan/QuanLyKhachSan.sln`. Trước khi ch�
 Giữ source project và các Form/Services bạn đã làm. Đưa các sản phẩm LAB3 vào thư mục LAB3; không để file của LAB khác lẫn ở đây.
 
 ```text
-LAB_OOSD/
+LAB\\\_OOSD/
 └── LAB3/
     ├── README.md
     ├── Source/       # Solution/project và mã nguồn C# của LAB3
@@ -93,13 +90,13 @@ Bạn có thể giữ cấu trúc project gốc của Visual Studio bên trong `
 
 ### Quy tắc trọng tâm cần kiểm tra
 
-- Số người trong phòng không vượt sức chứa.
-- Không đặt phòng có lịch chồng lấn.
-- Một thiết bị không lắp ở hai phòng trong cùng một ngày.
-- Dịch vụ trùng phòng/ngày/dịch vụ được cộng dồn.
-- Hóa đơn gồm tiền phòng và dịch vụ theo quy định bài.
-- Hỗ trợ nhiều giao dịch/phương thức thanh toán và không thu vượt tổng hóa đơn.
-- Chỉ hoàn tất trả phòng khi đã thanh toán đủ (nếu được cài đặt theo luồng này).
+* Số người trong phòng không vượt sức chứa.
+* Không đặt phòng có lịch chồng lấn.
+* Một thiết bị không lắp ở hai phòng trong cùng một ngày.
+* Dịch vụ trùng phòng/ngày/dịch vụ được cộng dồn.
+* Hóa đơn gồm tiền phòng và dịch vụ theo quy định bài.
+* Hỗ trợ nhiều giao dịch/phương thức thanh toán và không thu vượt tổng hóa đơn.
+* Chỉ hoàn tất trả phòng khi đã thanh toán đủ (nếu được cài đặt theo luồng này).
 
 ## Bằng chứng và quyền riêng tư
 
@@ -107,17 +104,9 @@ Bạn có thể giữ cấu trúc project gốc của Visual Studio bên trong `
 
 Ảnh dự kiến: Solution Explorer; database và danh sách bảng; FrmMain/module; đặt phòng; hóa đơn/thanh toán; kết quả một test đạt và một test bị từ chối. Thay danh sách này theo bằng chứng bạn thực sự có.
 
-## Lịch sử cập nhật
-
-Ghi ngắn các lần cập nhật để giảng viên theo dõi lịch sử Git:
-
-| Ngày | Nội dung commit | Commit hash (nếu cần) |
-|---|---|---|
-| `[yyyy-mm-dd]` | `[Khởi tạo LAB3 / cập nhật chức năng / bổ sung báo cáo]` | `[Hash]` |
-
 ## Kiểm tra Git và nộp bài
 
-Tại thư mục gốc `LAB_OOSD`, chạy:
+Tại thư mục gốc `LAB\\\_OOSD`, chạy:
 
 ```bash
 git status
@@ -126,15 +115,16 @@ git commit -m "Hoan thanh LAB3 quan ly khach san"
 git push
 ```
 
-Sau khi push, mở repository trên GitHub, kiểm tra README và các file LAB3 tải/xem được, lịch sử commit hiện đúng. Sau đó dán URL repository `LAB_OOSD` vào bài nộp tương ứng trên Google Classroom. Giữ nguyên repository sau hạn nộp; không sửa nội dung đã nộp nếu chưa được giảng viên cho phép.
+Sau khi push, mở repository trên GitHub, kiểm tra README và các file LAB3 tải/xem được, lịch sử commit hiện đúng. Sau đó dán URL repository `LAB\\\_OOSD` vào bài nộp tương ứng trên Google Classroom. Giữ nguyên repository sau hạn nộp; không sửa nội dung đã nộp nếu chưa được giảng viên cho phép.
 
 ## Danh mục sản phẩm theo đề
 
-- [ ] Báo cáo Word.
-- [ ] Workbook Use Case + Screen Design.
-- [ ] UML/draw.io.
-- [ ] Solution Visual Studio 2022 và source code.
-- [ ] Script SQL.
-- [ ] Hình giao diện chụp từ máy cá nhân.
-- [ ] Bảng test case với kết quả thực tế.
-- [ ] URL repository đã push thành công và đã dán vào Google Classroom.
+* \[ ] Báo cáo Word.
+* \[ ] Workbook Use Case + Screen Design.
+* \[ ] UML/draw.io.
+* \[ ] Solution Visual Studio 2022 và source code.
+* \[ ] Script SQL.
+* \[ ] Hình giao diện chụp từ máy cá nhân.
+* \[ ] Bảng test case với kết quả thực tế.
+* \[ ] URL repository đã push thành công và đã dán vào Google Classroom.
+

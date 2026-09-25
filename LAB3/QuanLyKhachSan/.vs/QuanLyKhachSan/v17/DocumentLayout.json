@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\LAB_AT_OOSD\\LAB3\\QuanLyKhachSan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA8A61EB-E7B5-49B4-B0BB-DCE3B77E561A}|QuanLyKhachSan.csproj|c:\\lab_at_oosd\\lab3\\quanlykhachsan\\forms\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA8A61EB-E7B5-49B4-B0BB-DCE3B77E561A}|QuanLyKhachSan.csproj|solutionrelative:forms\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA8A61EB-E7B5-49B4-B0BB-DCE3B77E561A}|QuanLyKhachSan.csproj|c:\\lab_at_oosd\\lab3\\quanlykhachsan\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AA8A61EB-E7B5-49B4-B0BB-DCE3B77E561A}|QuanLyKhachSan.csproj|solutionrelative:forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,6 +23,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmDanhMuc.cs [Design]",
+              "DocumentMoniker": "C:\\LAB_AT_OOSD\\LAB3\\QuanLyKhachSan\\Forms\\FrmDanhMuc.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmDanhMuc.cs",
+              "ToolTip": "C:\\LAB_AT_OOSD\\LAB3\\QuanLyKhachSan\\Forms\\FrmDanhMuc.cs [Design]",
+              "RelativeToolTip": "Forms\\FrmDanhMuc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:50:30.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "C:\\LAB_AT_OOSD\\LAB3\\QuanLyKhachSan\\Forms\\FrmMain.cs",
               "RelativeDocumentMoniker": "Forms\\FrmMain.cs",

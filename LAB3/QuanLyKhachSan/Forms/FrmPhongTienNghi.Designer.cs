@@ -92,7 +92,7 @@
             this.tabPhong.Name = "tabPhong";
             this.tabPhong.TabIndex = 1;
             this.tabPhong.Text = "Phòng";
-            this.tabPhong.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPhong.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabPhong.Padding = new System.Windows.Forms.Padding(8);
             // tabTN
             this.tabTN.Location = new System.Drawing.Point(4, 27);
@@ -100,7 +100,7 @@
             this.tabTN.Name = "tabTN";
             this.tabTN.TabIndex = 2;
             this.tabTN.Text = "Tiện nghi";
-            this.tabTN.BackColor = System.Drawing.SystemColors.Control;
+            this.tabTN.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabTN.Padding = new System.Windows.Forms.Padding(8);
             // tabLD
             this.tabLD.Location = new System.Drawing.Point(4, 27);
@@ -108,7 +108,7 @@
             this.tabLD.Name = "tabLD";
             this.tabLD.TabIndex = 3;
             this.tabLD.Text = "Lịch sử lắp đặt / luân chuyển";
-            this.tabLD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabLD.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabLD.Padding = new System.Windows.Forms.Padding(8);
             // lblField1
             this.lblField1.Location = new System.Drawing.Point(12, 23);
@@ -548,7 +548,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 760);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

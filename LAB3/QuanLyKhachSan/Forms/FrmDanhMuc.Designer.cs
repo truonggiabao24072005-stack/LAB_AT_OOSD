@@ -105,7 +105,7 @@
             this.tabKhu.Name = "tabKhu";
             this.tabKhu.TabIndex = 1;
             this.tabKhu.Text = "Khu vực";
-            this.tabKhu.BackColor = System.Drawing.SystemColors.Control;
+            this.tabKhu.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabKhu.Padding = new System.Windows.Forms.Padding(8);
             // tabNV
             this.tabNV.Location = new System.Drawing.Point(4, 27);
@@ -113,7 +113,7 @@
             this.tabNV.Name = "tabNV";
             this.tabNV.TabIndex = 2;
             this.tabNV.Text = "Nhân viên";
-            this.tabNV.BackColor = System.Drawing.SystemColors.Control;
+            this.tabNV.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabNV.Padding = new System.Windows.Forms.Padding(8);
             // tabLoai
             this.tabLoai.Location = new System.Drawing.Point(4, 27);
@@ -121,7 +121,7 @@
             this.tabLoai.Name = "tabLoai";
             this.tabLoai.TabIndex = 3;
             this.tabLoai.Text = "Loại tiện nghi";
-            this.tabLoai.BackColor = System.Drawing.SystemColors.Control;
+            this.tabLoai.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabLoai.Padding = new System.Windows.Forms.Padding(8);
             // tabDV
             this.tabDV.Location = new System.Drawing.Point(4, 27);
@@ -129,7 +129,7 @@
             this.tabDV.Name = "tabDV";
             this.tabDV.TabIndex = 4;
             this.tabDV.Text = "Dịch vụ";
-            this.tabDV.BackColor = System.Drawing.SystemColors.Control;
+            this.tabDV.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabDV.Padding = new System.Windows.Forms.Padding(8);
             // tabQD
             this.tabQD.Location = new System.Drawing.Point(4, 27);
@@ -137,7 +137,7 @@
             this.tabQD.Name = "tabQD";
             this.tabQD.TabIndex = 5;
             this.tabQD.Text = "Quy định đền bù";
-            this.tabQD.BackColor = System.Drawing.SystemColors.Control;
+            this.tabQD.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabQD.Padding = new System.Windows.Forms.Padding(8);
             // lblField1
             this.lblField1.Location = new System.Drawing.Point(15, 23);
@@ -664,7 +664,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 630);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

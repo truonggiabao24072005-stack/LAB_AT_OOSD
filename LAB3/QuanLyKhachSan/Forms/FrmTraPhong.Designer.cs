@@ -96,7 +96,7 @@
             this.tabXuLy.Name = "tabXuLy";
             this.tabXuLy.TabIndex = 1;
             this.tabXuLy.Text = "Trả phòng / Thanh toán";
-            this.tabXuLy.BackColor = System.Drawing.SystemColors.Control;
+            this.tabXuLy.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabXuLy.Padding = new System.Windows.Forms.Padding(8);
             // tabLichSu
             this.tabLichSu.Location = new System.Drawing.Point(4, 27);
@@ -104,7 +104,7 @@
             this.tabLichSu.Name = "tabLichSu";
             this.tabLichSu.TabIndex = 2;
             this.tabLichSu.Text = "Lịch sử đền bù / thanh toán";
-            this.tabLichSu.BackColor = System.Drawing.SystemColors.Control;
+            this.tabLichSu.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.tabLichSu.Padding = new System.Windows.Forms.Padding(8);
             // lblField1
             this.lblField1.Location = new System.Drawing.Point(15, 18);
@@ -580,7 +580,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 800);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+ <Product Code="SP01"><Name>Máy ảnh mini</Name><Group>Máy ảnh</Group><Manufacturer>ABC</Manufacturer><Description>Máy ảnh nhỏ gọn dùng làm quà tặng.</Description><Specs>20 MP; USB-C; màn hình 3 inch</Specs><Price>1200000</Price><Available>true</Available><Image>Assets/SP01.jpg</Image></Product>
+ <Product Code="SP02"><Name>Bộ xếp hình</Name><Group>Đồ chơi</Group><Manufacturer>ABC Toys</Manufacturer><Description>Bộ lắp ghép gồm 120 chi tiết.</Description><Specs>Nhựa ABS; dành cho trẻ từ 6 tuổi</Specs><Price>250000</Price><Available>true</Available><Image>Assets/SP02.png</Image></Product>
+ <Product Code="SP03"><Name>Laptop học tập</Name><Group>Máy tính</Group><Manufacturer>ABC Computer</Manufacturer><Description>Máy tính phục vụ học tập và văn phòng.</Description><Specs>RAM 8 GB; SSD 256 GB; màn hình 14 inch</Specs><Price>5000000</Price><Available>true</Available><Image>Assets/SP03.png</Image></Product>
+ <Product Code="SP04"><Name>Ấm siêu tốc</Name><Group>Gia dụng</Group><Manufacturer>ABC Home</Manufacturer><Description>Ấm đun nước có chức năng tự ngắt.</Description><Specs>1.8 lít; 1500 W</Specs><Price>300000</Price><Available>false</Available><Image>Assets/SP04.png</Image></Product>
+</Products>

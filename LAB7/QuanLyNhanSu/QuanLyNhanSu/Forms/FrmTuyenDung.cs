@@ -1,0 +1,1 @@
+﻿using System;using System.Linq;using System.Collections.Generic;using System.Windows.Forms;using QuanLyNhanSu.Models;namespace QuanLyNhanSu.Forms {public partial class FrmTuyenDung:BusinessForm {public FrmTuyenDung(){InitializeComponent();}}}

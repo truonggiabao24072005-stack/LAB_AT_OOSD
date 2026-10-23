@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C527110-70A7-4130-9224-BCC3D5ABC007}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyNhanSu</RootNamespace>
+    <AssemblyName>QuanLyNhanSu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Data\Db.cs" />
+    <Compile Include="Forms\BusinessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBangLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBangLuong.Designer.cs">
+      <DependentUpon>FrmBangLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDanhMuc.Designer.cs">
+      <DependentUpon>FrmDanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmHopDong.Designer.cs">
+      <DependentUpon>FrmHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKeHoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKeHoach.Designer.cs">
+      <DependentUpon>FrmKeHoach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPhuTroi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPhuTroi.Designer.cs">
+      <DependentUpon>FrmPhuTroi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmQuyetDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmQuyetDinh.Designer.cs">
+      <DependentUpon>FrmQuyetDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmThuongPhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmThuongPhat.Designer.cs">
+      <DependentUpon>FrmThuongPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTuyenDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTuyenDung.Designer.cs">
+      <DependentUpon>FrmTuyenDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Models.cs" />
+    <Compile Include="Services\NhanSuService.cs" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

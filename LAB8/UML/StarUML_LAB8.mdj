@@ -1,0 +1,536 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAF7_LAB8_PROJECT_ID",
+  "name": "HeThongQuanLyChoThueVanPhongCaoOc_LAB8",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAF7_MODEL_CLASS",
+      "name": "ClassModel",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAAF7_DIAG_CLASS",
+          "name": "ClassDiagram_Cau2",
+          "ownedViews": []
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_CAOOC",
+          "name": "CaoOc",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_01",
+              "name": "CAOOC_01: MaCaoOc",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_02",
+              "name": "CAOOC_02: TenCaoOc",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_03",
+              "name": "CAOOC_03: DiaChi",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_04",
+              "name": "CAOOC_04: SoTang",
+              "type": "int",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_05",
+              "name": "CAOOC_05: SoDienThoaiBQL",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_CAOOC_06",
+              "name": "CAOOC_06: QuyCheToaNha",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_CAOOC_01",
+              "name": "KiemTraQuyChe",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_CAOOC_02",
+              "name": "CapNhatThongTin",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_CAOOC_03",
+              "name": "LayDanhSachTang",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_TANG",
+          "name": "Tang",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_01",
+              "name": "TANG_01: MaTang",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_02",
+              "name": "TANG_02: SoThuTuTang",
+              "type": "int",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_03",
+              "name": "TANG_03: TenTang",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_04",
+              "name": "TANG_04: DoCao",
+              "type": "double",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_05",
+              "name": "TANG_05: HeSoGiaTang",
+              "type": "double",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_TANG_06",
+              "name": "TANG_06: MaCaoOc",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_TANG_01",
+              "name": "ThemPhong",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_TANG_02",
+              "name": "LayDanhSachPhong",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_TANG_03",
+              "name": "TinhTyLeLapDay",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_PHONG",
+          "name": "Phong",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_01",
+              "name": "PHONG_01: MaPhong",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_02",
+              "name": "PHONG_02: TenPhong",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_03",
+              "name": "PHONG_03: DienTich",
+              "type": "double",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_04",
+              "name": "PHONG_04: HuongPhong",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_05",
+              "name": "PHONG_05: DonGiaCoBan",
+              "type": "decimal",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_06",
+              "name": "PHONG_06: GiaThueThang",
+              "type": "decimal",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_07",
+              "name": "PHONG_07: TinhTrang",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_08",
+              "name": "PHONG_08: KetCauBanDau",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PHONG_09",
+              "name": "PHONG_09: MaTang",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PHONG_01",
+              "name": "TinhGiaThue",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PHONG_02",
+              "name": "CapNhatTinhTrang",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PHONG_03",
+              "name": "KiemTraKetCau",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_KHACHHANG",
+          "name": "KhachHang",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_01",
+              "name": "KH_01: MaKH",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_02",
+              "name": "KH_02: TenCongTy",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_03",
+              "name": "KH_03: MaSoThue",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_04",
+              "name": "KH_04: NguoiDaiDien",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_05",
+              "name": "KH_05: SoDienThoai",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_06",
+              "name": "KH_06: Email",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_07",
+              "name": "KH_07: DiaChiTruSo",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_KH_08",
+              "name": "KH_08: SoCMND_CCCD",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_KH_01",
+              "name": "DangKyThue",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_KH_02",
+              "name": "BaoCaoNhanVienMoi",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_KH_03",
+              "name": "YeuCauGiaHan",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_HOPDONG",
+          "name": "HopDongThue",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_01",
+              "name": "HD_01: MaHD",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_02",
+              "name": "HD_02: SoHopDong",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_03",
+              "name": "HD_03: NgayLap",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_04",
+              "name": "HD_04: NgayBatDau",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_05",
+              "name": "HD_05: NgayKetThuc",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_06",
+              "name": "HD_06: ThoiHanThue",
+              "type": "int",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_07",
+              "name": "HD_07: TienCoc",
+              "type": "decimal",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_08",
+              "name": "HD_08: TongTienThue6Thang",
+              "type": "decimal",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_09",
+              "name": "HD_09: TrangThai",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_HD_10",
+              "name": "HD_10: MaKH",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_HD_01",
+              "name": "ThemPhongThue",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_HD_02",
+              "name": "TinhTienThue6ThangDau",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_HD_03",
+              "name": "KiemTraDieuKienGiaHan",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_HD_04",
+              "name": "CapNhatHanHopDong",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAAF7_CLS_PHIEUGIAHAN",
+          "name": "PhieuGiaHan",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_01",
+              "name": "PGH_01: MaPhieuGH",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_02",
+              "name": "PGH_02: SoPhieu",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_03",
+              "name": "PGH_03: NgayLap",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_04",
+              "name": "PGH_04: ThoiGianGiaHan",
+              "type": "int",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_05",
+              "name": "PGH_05: NgayBatDauGH",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_06",
+              "name": "PGH_06: NgayKetThucGH",
+              "type": "DateTime",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_07",
+              "name": "PGH_07: TrangThaiDuyet",
+              "type": "String",
+              "visibility": "private"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "A_PGH_08",
+              "name": "PGH_08: MaHD",
+              "type": "String",
+              "visibility": "private"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PGH_01",
+              "name": "XacNhanDuyet",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PGH_02",
+              "name": "TuChoi",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "O_PGH_03",
+              "name": "InPhieuGiaHan",
+              "visibility": "public"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAF7_MODEL_USECASE",
+      "name": "UseCaseModel",
+      "ownedElements": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "AAAAAAF7_DIAG_UC_TONGQUAT",
+          "name": "UseCaseDiagram_TongQuat",
+          "ownedViews": []
+        },
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "AAAAAAF7_DIAG_UC_PHANRA",
+          "name": "UseCaseDiagram_PhanRa_Cau4",
+          "ownedViews": []
+        }
+      ]
+    }
+  ]
+}
